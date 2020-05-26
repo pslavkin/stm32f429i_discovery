@@ -37,6 +37,7 @@ BUILD_DIR = build
 # C sources
 C_SOURCES =  \
 Src/main.c \
+Src/widget.c \
 Src/freertos.c \
 Src/usb_host.c \
 Src/usbh_conf.c \

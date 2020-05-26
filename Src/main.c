@@ -146,7 +146,7 @@ int main(void)
   lv_init();
   tft_init();
   touchpad_init();
-  lv_demo_widgets();
+  widget();
 
 
   /* USER CODE END 2 */
