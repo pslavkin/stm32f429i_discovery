@@ -25,7 +25,7 @@
  *  STATIC PROTOTYPES
  **********************/
 static bool touchpad_read(lv_indev_drv_t * drv, lv_indev_data_t *data);
-static bool touchpad_get_xy(int16_t *x, int16_t *y);
+/*static*/ bool touchpad_get_xy(int16_t *x, int16_t *y);
 
 /**********************
  *  STATIC VARIABLES
@@ -91,7 +91,7 @@ static bool touchpad_read(lv_indev_drv_t * drv, lv_indev_data_t *data)
 }
 
 
-static bool touchpad_get_xy(int16_t *x, int16_t *y)
+/*static*/ bool touchpad_get_xy(int16_t *x, int16_t *y)
 {
 	static int32_t _x = 0, _y = 0;
 	int16_t xDiff, yDiff, xr, yr;

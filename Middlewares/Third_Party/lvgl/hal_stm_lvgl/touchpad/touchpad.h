@@ -24,6 +24,7 @@
  * GLOBAL PROTOTYPES
  **********************/
 void touchpad_init(void);
+bool touchpad_get_xy(int16_t *x, int16_t *y);
 
 /**********************
  *      MACROS

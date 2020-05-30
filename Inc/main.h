@@ -52,6 +52,7 @@ extern "C" {
 
 /* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);
+void printInt(int p);
 
 /* USER CODE BEGIN EFP */
 
